@@ -1,5 +1,5 @@
 import os, tempfile
-import streamlit as st, pinecone
+import streamlit_app as st, pinecone
 from langchain.llms.openai import OpenAI
 from langchain.vectorstores.pinecone import Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
